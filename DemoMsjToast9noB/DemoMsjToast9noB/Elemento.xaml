@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoMsjToast9noB.Elemento">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" Padding="10">
+                <Label x:Name="mensaje"/>
+                <Label Text="Nombre: "/>
+                <Entry x:Name="txtNombre"/>
+                <Label Text="Usuario: "/>
+                <Entry x:Name="txtUsuario"/>
+                <Label Text="Contrasenia: "/>
+                <Entry x:Name="txtContrasenia"/>
+                <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" Background="LawnGreen"/>
+                <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" Background="Red"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
